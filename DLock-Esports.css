@@ -1,0 +1,95 @@
+body, html {
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #00ffdd;
+    color: #000000;
+    padding: 8px;
+    margin: 0 220px;
+}
+.content-main {
+    text-align: center;
+    font-style: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #00ff6a;
+    color: #000000;
+    padding: 8px;
+}
+.contact-content {
+    text-align: center;
+    margin: 0px 585px;
+    Background: #00ffdd;
+    border-radius: 8px;
+}
+.contact-content input[type="submit"] {
+    color: #000000;
+    padding: 16px;
+    border-radius: 6px;
+}
+button {
+        background:none!important;
+        color: inherit;
+        border:none; 
+        padding: 0;
+        font: inherit;
+        border-bottom: 0px solid #444; 
+        cursor: pointer;
+}
+a:link {
+    color: #0004ff;
+}
+a:visited {
+    color: #0004ff;
+}
+a:hover {
+    color: #0004ff;
+}
+a:active {
+    color: #0004ff;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-radius: 8px;
+    background-color: #00ffdd;
+text-align: left;
+padding: 8px;
+margin: 16px;
+}
+
+tr:nth-child {
+background-color: #ffffff;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        margin: 0 10px;
+    }
+}
+.footer {
+    text-align: center;
+}
+.footer a {
+    color: black;
+    font-size: 48px;
+    margin: 8px;
+    text-decoration: none;
+}
+.footer a:hover {
+    opacity: .7;
+}
+.footer a:active {
+    opacity: .7;
+}
+.footer a:visited {
+    color: black;
+}
