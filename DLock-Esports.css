@@ -1,13 +1,13 @@
 body, html {
-    background-color: #ffffff;
+    background-color: #000000;
 }
 h1 {
     text-align: center;
     font-style: bold;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #00ffdd;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     padding: 8px;
     margin: 0 220px;
 }
@@ -16,8 +16,8 @@ h1 {
     font-style: bold;
     font-size: 16px;
     border-radius: 8px;
-    background-color: #00ff6a;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     padding: 8px;
 }
 .contact-content {
@@ -79,7 +79,7 @@ background-color: #ffffff;
     text-align: center;
 }
 .footer a {
-    color: black;
+    color: #000000;
     font-size: 48px;
     margin: 8px;
     text-decoration: none;
@@ -91,5 +91,5 @@ background-color: #ffffff;
     opacity: .7;
 }
 .footer a:visited {
-    color: black;
+    color: #000000;
 }
