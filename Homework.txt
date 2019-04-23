@@ -1,0 +1,45 @@
+Your name:
+
+                                                        JavaScript Homework
+                                                        
+1. What are the 6 main data types used in JavaScript?
+string, number, boolean, null, undefined, and symbol
+
+
+2. What is the syntax for declaring a variable, and what are the three available names for declaration?
+dataType variableName;
+var, const, and let
+
+
+3. What is the function of console.log()?
+To log things in the console.
+
+
+4. How do you select an HTML element with the ID of "example-text" within JavaScript and then assign it to a variable named SelectedHTML? (Hint: remember the document object)
+var SelectedHTML = document.getElementById('ExampleText');
+
+
+5. Write out the structure of a function within JavaScript, then write how you would call that function.
+You may name this function any name you choose.
+
+function add(number1, number2) {
+    return number1 + number2;
+}
+example: console.log("21 + 21 is " + add(21, 21));
+
+6. What would be the output of this code?
+    if (20 > 15) {
+        console.log("20 is greater than 15");
+    } else {
+        console.log("20 is less than 15");
+    }
+The console would show "20 is greater than 15"    
+    
+    
+7. What would be the output of this code?
+    function multiply(num1, num2) {
+        return num1*num2;
+    }
+    multiply(10, 10);
+Multiplying 10 by 10 wich makes 100
+    
